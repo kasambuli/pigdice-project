@@ -1,0 +1,38 @@
+Z
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>pig dice</title>
+</head>
+
+<body>
+  <header>
+    <h1><strong>pig dice</strong></h1>
+  </header>
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/player1.jpeg" alt="player 1">
+      <p>Rick</p>
+      <div class="dice" id="dice1">
+        <button onclick="diceRoll" class="roll" id="roll1">ROLL</button>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="images/player2.jpeg" alt="player 2" id="morty">
+      <p id="/">Morty</p>
+      <div class="dice" id="dice2">
+        <button onclick="diceRoll" class="roll" id="roll2">ROLL</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
