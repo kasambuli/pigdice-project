@@ -33,4 +33,9 @@ body {
   font-size: 200%;
 }
 
+#submit {
+  background-color: red;
+  color: black;
+}
+
 ;
