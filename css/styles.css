@@ -33,6 +33,12 @@ body {
   font-size: 200%;
 }
 
+.dice {
+  font-size: 250%;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
 #submit {
   background-color: red;
   color: black;
