@@ -1,47 +1,73 @@
 h1 {
-  color: white;
-  text-align: center;
-  font-size: 100px;
-  text-transform: capitalize;
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    text-transform: capitalize;
+    font-family: 'Coiny', cursive;
 }
 
 body {
-  background-image: url("../images/background.png");
-  padding-bottom: 100px;
-  background-repeat: round;
-  margin-top: 80px;
+    background-image: url("../images/background.png");
+    padding-bottom: 100px;
+    background-repeat: round;
+    margin-top: 80px;
 }
 
 .jumbotron {
-  margin: 10%;
-  margin-bottom: 4%;
-  background-color: white;
-  padding: 20%;
-  border-radius: 150px;
+    margin: 10%;
+    margin-bottom: 4%;
+    background-color: white;
+    padding: 20%;
+    border-radius: 150px;
 }
 
 .button {
-  background-color: black;
-  color: red;
-  border: 1px;
-  height: 60px;
-  width: 100px;
-  border-radius: 50px;
+    background-color: black;
+    color: red;
+    border: 1px;
+    height: 60px;
+    width: 100px;
+    border-radius: 50px;
+    font-family: 'Coiny', cursive;
 }
 
 #result {
-  font-size: 200%;
+    font-size: 200%;
+    font-family: 'Coiny', cursive;
 }
 
 .dice {
-  font-size: 250%;
-  text-align: justify;
-  padding-bottom: 50px;
+    font-size: 250%;
+    text-align: justify;
+    padding-bottom: 50px;
 }
 
 #submit {
-  background-color: red;
-  color: black;
+    background-color: red;
+    color: black;
+    font-family: 'Coiny', cursive;
 }
 
+.dice {
+    font-family: 'Coiny', cursive;
+}
+
+input {
+    font-family: 'Coiny', cursive;
+    height: 70px;
+    ;
+}
+
+label {
+    font-family: 'Coiny', cursive;
+    font-size: 50px;
+}
+
+.username {
+    font-family: 'Coiny', cursive;
+    font-size: 50px;
+}
+
+
+}
 ;
