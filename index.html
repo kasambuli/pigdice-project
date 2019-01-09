@@ -3,63 +3,78 @@ Z
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>pig dice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <title>pig dice</title>
 </head>
 
 <body>
-  <header>
-    <h1><strong>pig dice</strong></h1>
-  </header>
-  <div class="jumbotron">
+    <header>
+        <h1><strong>pig dice</strong></h1>
+    </header>
+    <div class="jumbotron">
 
-    <div class="row">
+        <div class="row">
 
-      <div class="col-md-6">
-        <form id="playerOne">
-          <input type="text" class="form-control playerOne" placeholder="Input player1 name">
-          <button class="btn btn-submit" id="submit">Name</button>
-        </form>
-        <br>
-        <br>
+            <div class="col-md-6">
+                <form id="playerOne">
+                    <div class="form-group">
+                        <label for="userName">Username</label>
+                        <input type="text" class="form-control" id="firstPlayer" placeholder="Input player1 name">
+                        <button class="btn btn-submit" id="submit">Name</button>
+                    </div>
+                </form>
+                <ul id="name"></ul>
+                <br>
+                <br>
 
-        <div id="firstDie" class="dice">0</div>
+                <div id="firstDie" class="dice">0</div>
 
-        <button id="firstRoll" class="button">ROLL!</button>
-        <br>
-        <br>
+                <button id="firstRoll" class="button">ROLL!</button>
+                <br>
+                <br>
 
-        <p id="result">TOTAL:</p>
-      </div>
+                <p id="result">TOTAL:</p>
+            </div>
 
 
-      <div class="col-md-6">
-        <form id="playerTwo">
-          <input type="text" class="form-control playerTwo" placeholder="Input player2 name">
-          <button class="btn btn-submit" id="submit">Name</button>
-        </form>
-        <br>
-        <br>
+            <div class="col-md-6">
+                <form id="playerTwo">
+                    <div class="form-group">
+                        <label for="userName">Username</label>
+                        <input type="text" class="form-control" id="secondPlayer" placeholder="Input player2 name">
+                        <button class="btn btn-submit" id="submit">Name</button>
+                    </div>
+                </form>
+                <ul id="name2"></ul>
+                <br>
+                <br>
 
-        <div class="dice" id="secondDie">0</div>
-        <button id="secondRoll" class="button">ROLL!</button>
-        <br>
-        <br>
+                <div class="dice" id="secondDie">0</div>
+                <button id="secondRoll" class="button">ROLL!</button>
+                <br>
+                <br>
 
-        <p id="result">TOTAL:</p>
+                <p id="result">TOTAL:</p>
 
-      </div>
+            </div>
+
+        </div>
+
+
 
     </div>
-
-
-
-  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
